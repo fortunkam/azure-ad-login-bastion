@@ -10,7 +10,10 @@ $VM_NAME="$RG-vm"
 $VM_DISK="$RG-disk"
 $VM_NIC="$RG-nic"
 $VM_USERNAME="AzureAdmin"
-$VM_PASSWORD="3rEnX722wVE7JTrV"
+
+# User needs to provide a password for the VM (Win 2019 Default Password requirements apply)
+$VM_PASSWORD=Read-Host -Prompt 'Input your VM Admin Password'
+
 $VM_PRIVATE_IP="10.0.0.5"
 
 $BASTION_PUBLIC_IP_NAME="$RG-bastion-publicip"
