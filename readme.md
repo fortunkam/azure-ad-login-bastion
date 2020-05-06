@@ -1,0 +1,1 @@
+# Create a VM on a vnet (no public IP) with Azure AD authentication enabled and an Azure Bastion
